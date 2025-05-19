@@ -12,4 +12,9 @@ CREATE_ORDER_AND_GET_ORDER_LIST = BASE_URL + '/api/v1/orders'
 GET_ORDER_BY_ID = BASE_URL = '/api/v1/orders/track'
 ACCEPT_ORDER = BASE_URL + f'/api/v1/orders/accept/:{id}'
 
+GET_ID_DATA = {
+            "login": 'login',
+            "password": 'password'
+        }
 
+ERROR_MESSAGE = "Этот логин уже используется. Попробуйте другой."
